@@ -1,6 +1,7 @@
 Notes: make sure you have the last version of the node (16.18.0)
        write the following command npm i --legacy-peer-deps
 
+Steps:
 1. put a plan and choose the technologies that are needed
 2. set up my project
 3. install the dependencies
@@ -13,3 +14,5 @@ Notes: make sure you have the last version of the node (16.18.0)
       and API link
  7. I reached the album's artist by using the artist's id then use this id 
       in the proper API link to get the needed data
+      
+ Time: Almost half a day
