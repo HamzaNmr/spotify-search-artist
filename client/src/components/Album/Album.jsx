@@ -29,13 +29,13 @@ const Album = () => {
 
     useEffect(() => {
         getAlbums();
-    },[id])
+    })
 
     const artistsName = window.localStorage.getItem('artistsName');
 
   return (
     <div>
-        <div style={{padding: '1rem 6rem'}}>
+        <div className={classes.title}>
         <Typography variant='h4'>{artistsName}</Typography>
         <Typography variant='h6'>Albums</Typography>
         </div>

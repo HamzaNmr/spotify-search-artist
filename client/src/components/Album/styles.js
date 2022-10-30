@@ -10,5 +10,15 @@ import { makeStyles } from "@material-ui/core/styles";
     flexWrap: 'wrap',
     overflowY: 'auto',
     paddingBottom: 30,
+   },
+
+   title: {
+   padding: '1rem 6rem',
+   [theme.breakpoints.down('md')]:{
+    padding: '1rem'
+   },
+   [theme.breakpoints.down('md')]:{
+    padding: '1rem 3rem'
+   }
    }
  }))
