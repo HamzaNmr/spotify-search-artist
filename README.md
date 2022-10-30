@@ -1,5 +1,5 @@
-Notes: make sure you have the last version of the node (16.18.0)
-       write the following command npm i --legacy-peer-deps
+Notes: make sure you have the last version of the node (16.18.0).
+       write the following command cd client and then npm i --legacy-peer-deps
 
 Steps:
 1. put a plan and choose the technologies that are needed
