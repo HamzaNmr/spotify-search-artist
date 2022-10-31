@@ -45,7 +45,7 @@ const Search = () => {
 
     useEffect(() => {
       handleSearch();
-    })
+    }, [searchValue])
 
   return (
    

@@ -16,7 +16,8 @@ const Album = () => {
     const [albums,setAlbums] = useState([]);
     const token =  window.localStorage.getItem('accessToken');
 
-    const getAlbums = async() => {
+    useEffect(() => {
+      const getAlbums = async() => {
         const { data } = await axios.get(`https://api.spotify.com/v1/artists/${id}/albums`,{
         headers:{
           'Content-Type': 'application/json',
@@ -26,10 +27,8 @@ const Album = () => {
 
     setAlbums(data?.items)
     };
-
-    useEffect(() => {
         getAlbums();
-    })
+    }, [])
 
     const artistsName = window.localStorage.getItem('artistsName');
 
